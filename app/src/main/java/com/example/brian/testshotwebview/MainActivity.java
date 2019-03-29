@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
 
 //        File f = new File("/sdcard/namecard/", picName);
         File path = Environment.getExternalStorageDirectory();
-        File file = new File("/sdcard", "webview.png");  // 路径为：  /sdcard/webView.png
+        File file = new File("/sdcard", "webview.png");  // 路径为：  /sdcard/webview.png
         if (file.exists()) {
             file.delete();
         }
